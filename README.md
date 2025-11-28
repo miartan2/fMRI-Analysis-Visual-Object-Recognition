@@ -53,7 +53,6 @@ A 116×116 correlation matrix (AAL atlas) showing synchronous activity between b
 
 ## To Run
 Requirements:
-- Python 3.8+
 - nilearn, numpy, scipy, pandas, matplotlib, seaborn
 - pip install nilearn numpy scipy pandas matplotlib seaborn  
 Script: python "fMRI Face vs House Recognition.py"
