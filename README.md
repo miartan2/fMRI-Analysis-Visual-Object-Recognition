@@ -41,12 +41,15 @@ Below are the main outputs produced by the script:
 
 ### **GLM Design Matrix**
 ![Design Matrix](figures/design_matrix.png)
+This design matrix shows the modeled predictors used in the GLM. The alternating blocks of face and house conditions produce distinct regressors matched to the experimental timing, allowing estimation of category-selective brain responses.
 
 ### **Face > House Contrast Map**
 ![Face vs House Z Map](figures/face_house_zmap.png)
+Statistical map showing brain regions more active during face viewing than house viewing. Strong activation appears in bilateral fusiform gyrus, inferior temporal cortex, and occipital visual areas, which are consistent with the known fusiform face area (FFA).
 
 ### **Functional Connectivity Matrix**
 ![Connectivity Matrix](figures/correlation_matrix.png)
+A 116×116 correlation matrix (AAL atlas) showing synchronous activity between brain regions. Block structure reflects coordinated responses among visual, cerebellar, and association networks during visual stimulation.
 
 ## To Run
 Requirements:
