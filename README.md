@@ -31,5 +31,5 @@ The script demonstrates three core neuroimaging methods:
   - Identifying the most highly correlated regions
 
 ## To Run
-Required: pip install nilearn numpy scipy pandas matplotlib seaborn
+Required: pip install nilearn numpy scipy pandas matplotlib seaborn  
 Run script: python "fMRI Face vs House Recognition.py"
