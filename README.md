@@ -30,6 +30,27 @@ The script demonstrates three core neuroimaging methods:
   - Computing a brain-wide correlation matrix
   - Identifying the most highly correlated regions
 
+## Key Results
+- Face > house activation appears in the fusiform gyrus, inferior temporal cortex, and occipital visual areas; these results are consistent with the fusiform face area (FFA).
+- The design matrix shows clean alternating blocks for face and house stimuli.
+- The connectivity matrix displays strong structure among visual and association regions.
+- Top hubs include bilateral calcarine and lingual gyri, hippocampus, cerebellum, and medial frontal cortex.
+
+## Figures
+Below are the main outputs produced by the script:
+
+### **GLM Design Matrix**
+![Design Matrix](figures/design_matrix.png)
+
+### **Face > House Contrast Map**
+![Face vs House Z Map](figures/face_house_zmap.png)
+
+### **Functional Connectivity Matrix**
+![Connectivity Matrix](figures/correlation_matrix.png)
+
 ## To Run
-Required: pip install nilearn numpy scipy pandas matplotlib seaborn  
-Run script: python "fMRI Face vs House Recognition.py"
+Requirements:
+- Python 3.8+
+- nilearn, numpy, scipy, pandas, matplotlib, seaborn
+- pip install nilearn numpy scipy pandas matplotlib seaborn  
+Script: python "fMRI Face vs House Recognition.py"
