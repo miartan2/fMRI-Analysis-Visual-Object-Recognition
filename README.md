@@ -4,16 +4,16 @@
 This project explores how the human brain differentiates between faces and houses, using a block-design fMRI dataset.
 
 ## Data  
-This project uses the built-in Haxby dataset from Nilearn:
-Haxby, J. V. et al. (2001).
-Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science, 293(5539), 2425–2430.
-Nilearn documentation: https://nilearn.github.io
+This project uses the built-in Haxby dataset from Nilearn:  
+Haxby, J. V. et al. (2001).  
+Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science, 293(5539), 2425–2430.  
+Nilearn documentation: https://nilearn.github.io  
 - 1452 fMRI timepoints (TR = 2.5s)
 - Visual stimuli including faces, houses, and objects
-Load data:
-haxby = datasets.fetch_haxby(subjects=[1])
-func_img = haxby.func[0]
-labels = pd.read_csv(haxby.session_target[0], sep=" ")
+Load data:  
+haxby = datasets.fetch_haxby(subjects=[1])  
+func_img = haxby.func[0]  
+labels = pd.read_csv(haxby.session_target[0], sep=" ")  
 
 ## Methods
 The script demonstrates three core neuroimaging methods:
